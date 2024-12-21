@@ -14,7 +14,7 @@ const useMusicStore = create((set) => ({
       url: 'https://scraptik.p.rapidapi.com/discover-music',
       params: { count: '48', cursor: '0' },
       headers: {
-        'x-rapidapi-key': '5c81b0f9b4msh3ecfac48e928900p12beafjsn7c576982d819',
+        'x-rapidapi-key': '',{/*upload scraptik api key*/}
         'x-rapidapi-host': 'scraptik.p.rapidapi.com'
       }
     };
